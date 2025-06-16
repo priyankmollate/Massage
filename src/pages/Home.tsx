@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
@@ -9,7 +8,6 @@ const ABOUT_IMG2 = 'https://cdn.pixabay.com/photo/2014/03/11/22/57/wellness-2855
 const WELLNESS1 = 'https://cdn.pixabay.com/photo/2023/04/25/05/51/therapy-7949513_1280.jpg';
 const WELLNESS2 = 'https://cdn.pixabay.com/photo/2024/07/30/13/41/ai-generated-8932301_1280.jpg';
 const WELLNESS3 = 'https://cdn.pixabay.com/photo/2014/07/11/09/03/massage-389727_1280.jpg';
-const CONTACT_IMG = 'https://cdn.pixabay.com/photo/2025/05/23/01/24/ai-generated-9616730_960_720.jpg';
 
 const testimonials = [
   {

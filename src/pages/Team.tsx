@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TEAM = [
   {
     name: 'Dr. Sarah Johnson',
