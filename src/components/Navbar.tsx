@@ -6,8 +6,9 @@ import logo from '../assets/logo.png'; // Adjust the path if needed
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Services', href: '/services' },
-  { name: 'Our Team', href: '/team' },
+  { name: 'Prices & Claims', href: '/prices-claims' },
+  { name: 'What We Treat', href: '/what-we-treat' },
+  { name: 'Therapist', href: '/therapist' },
   { name: 'Contact', href: '/contact' },
 ];
 

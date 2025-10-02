@@ -5,27 +5,6 @@ import logo from '../assets/logo.png';
 const HERO_BG = 'https://cdn.pixabay.com/photo/2023/10/28/11/21/ai-generated-8347190_1280.png';
 const ABOUT_IMG1 = 'https://cdn.pixabay.com/photo/2021/09/07/15/24/cupping-therapy-6604217_1280.jpg';
 const ABOUT_IMG2 = 'https://cdn.pixabay.com/photo/2014/03/11/22/57/wellness-285589_1280.jpg';
-const WELLNESS1 = 'https://cdn.pixabay.com/photo/2023/04/25/05/51/therapy-7949513_1280.jpg';
-const WELLNESS2 = 'https://cdn.pixabay.com/photo/2024/07/30/13/41/ai-generated-8932301_1280.jpg';
-const WELLNESS3 = 'https://cdn.pixabay.com/photo/2014/07/11/09/03/massage-389727_1280.jpg';
-
-const testimonials = [
-  {
-    name: 'Annabel',
-    role: 'Startup Founder',
-    feedback: 'Wellness is now within reach. Ayana Life Health Clinic made it so easy for me to make wellness a habit. I highly recommend the annual package.'
-  },
-  {
-    name: 'Danny',
-    role: 'Entrepreneur',
-    feedback: 'Service is top-notch. I have been to many other massage parlours but Ayana stands out for its excellent, well-trained staff.'
-  },
-  {
-    name: 'May-Ann',
-    role: 'Mother',
-    feedback: 'Ayana changed my life! I never used to think about self-care until I met my wellness adviser at Ayana. I now have more energy than ever!'
-  },
-];
 
 const Home = () => {
   return (
@@ -57,52 +36,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Wellness Menu Section */}
-        <section className="bg-[#f6f1e7] py-12 sm:py-16 px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-serif font-light text-[#662E26] text-center mb-8 sm:mb-12">Wellness Menu</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg shadow p-6 flex flex-col items-center">
-                <img src={WELLNESS1} alt="Fitness Programs" className="rounded-md w-full h-32 object-cover mb-4" />
-                <h3 className="text-xl font-serif font-medium text-[#662E26] mb-2">Fitness Programs</h3>
-                <p className="text-gray-700 text-center">From weightlifting and circuit training to yoga.</p>
-              </div>
-              <div className="bg-white rounded-lg shadow p-6 flex flex-col items-center">
-                <img src={WELLNESS2} alt="Wellness Therapies" className="rounded-md w-full h-32 object-cover mb-4" />
-                <h3 className="text-xl font-serif font-medium text-[#662E26] mb-2">Wellness Therapies</h3>
-                <p className="text-gray-700 text-center">Meditation classes that help promote inner balance.</p>
-              </div>
-              <div className="bg-white rounded-lg shadow p-6 flex flex-col items-center">
-                <img src={WELLNESS3} alt="Spa Treatments" className="rounded-md w-full h-32 object-cover mb-4" />
-                <h3 className="text-xl font-serif font-medium text-[#662E26] mb-2">Spa Treatments</h3>
-                <p className="text-gray-700 text-center">Skincare packages, massages, and herb baths.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Client Feedback Section */}
-        <section className="bg-[#cbb89d] py-12 sm:py-16 px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-serif font-light text-white text-center mb-8 sm:mb-12">Client Feedback</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {testimonials.map((t) => (
-                <div key={t.name} className="bg-white rounded-lg shadow p-6 flex flex-col items-start">
-                  <div className="flex items-center mb-4">
-                    <div className="h-10 w-10 rounded-full bg-[#2CAC76] flex items-center justify-center text-white font-bold text-lg mr-3">
-                      {t.name[0]}
-                    </div>
-                    <div>
-                      <div className="font-serif font-medium text-[#662E26]">{t.name}</div>
-                      <div className="text-xs text-gray-500">{t.role}</div>
-                    </div>
-                  </div>
-                  <p className="text-gray-700 text-base">{t.feedback}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Contact Section */}
         <section className="py-16 bg-[#f6f1e7]">
