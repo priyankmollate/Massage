@@ -7,7 +7,6 @@ const contactInfo = {
   instagram: 'https://instagram.com/ayanahealth7300',
 };
 
-const CONTACT_IMG = 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80';
 import locationImg from '../assets/location.jpg';
 
 export default function Contact() {
