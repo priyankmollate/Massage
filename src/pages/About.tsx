@@ -1,8 +1,10 @@
+import officeImg from '../assets/office.jpg';
+
 // High-quality images for massage therapy and posture improvement
 const AYANA_MEANING_IMG = 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80';
 const POSTURE_THERAPY_IMG = 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80';
 const MASSAGE_TECHNIQUES_IMG = 'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?auto=format&fit=crop&w=800&q=80';
-const CAREER_IMG = 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80';
+const CAREER_IMG = officeImg;
 const HOLISTIC_APPROACH_IMG = 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80';
 
 const About = () => {
@@ -195,7 +197,7 @@ const About = () => {
                 <div className="flex items-start">
                   <div className="bg-[#2CAC76] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">1</div>
                   <div>
-                    <h4 className="text-lg font-serif text-[#662E26] mb-2">Assessment & Diagnosis</h4>
+                    <h4 className="text-lg font-serif text-[#662E26] mb-2">Assessment</h4>
                     <p className="text-gray-700">Comprehensive evaluation of posture, movement patterns, and pain points</p>
                   </div>
                 </div>
